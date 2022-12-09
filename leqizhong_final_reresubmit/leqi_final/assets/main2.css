@@ -1,0 +1,285 @@
+body {
+  min-width: 480px;
+  line-height:1.7;
+  padding: 30px 80px 30px 80px;
+  background-color: #000000;
+}
+
+.description {
+  font-size: 15px;
+  font-family: Helvetica, Arial, Sans-serif;
+  color: #4E4E4E;
+  margin-top: -5px;
+  text-align:justify;
+}
+
+.articlefont {
+  font-size: 16px;
+  font-family: Georgia, Serif;
+  color: #EDEDED;
+  text-align:justify;
+}
+
+.caption {
+  font-size: 14px;
+  font-family: Helvetica, Arial, Sans-serif;
+  color: #EDEDED;
+  text-align:justify;
+  margin-top: -10px;
+}
+
+.resumefont {
+  font-size: 15px;
+  font-family: Helvetica, Arial, Sans-serif;
+  color: #4E4E4E;
+  margin-top: -5px;
+}
+
+.resumefont a:link {
+  color: #4E4E4E;
+}
+
+.resumefont a:visited {
+  color: #4E4E4E;
+}
+
+.resumefont a:hover {
+  color: #6A7A9A;
+  font-weight: bold;
+}
+
+.homepageheadshot {
+  float: left;
+  width: 40%;
+  margin-right: 50px;
+}
+
+.articlephoto {
+  width: 100%;
+}
+
+.bylinephoto {
+  width: 100%;
+  max-width: 50px;
+  min-width: 45px;
+}
+
+.frontpicture {
+  background-size: auto;
+  width: 100%;
+  position: relative;
+}
+
+.nav1 {
+  top:0;
+  right:0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  color: #EDEDED;
+  position: absolute;
+  font-size: 16px;
+  font-family: Verdana, Helvetica, Sans-serif;
+}
+
+.nav1 a:link {
+  color: #EDEDED;
+}
+
+.nav1 a:visited {
+  color: #EDEDED;
+}
+
+.nav1 a:hover {
+  color: #000000;
+}
+
+.ablack {
+  color: #EDEDED;
+  font-size: 16px;
+  font-family: Verdana, Helvetica, Sans-serif;
+}
+
+.awhite {
+  color: #EDEDED;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: Verdana, Helvetica, Sans-serif;
+  color: #EDEDED;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.chartname {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Verdana, Helvetica, Sans-serif;
+  font-style:italic;
+  color: #487C9E;
+  -webkit-text-stroke: 1px #EDEDED;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, Sans-serif;
+  color: #4E4E4E;
+  margin-top: -5px;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, Sans-serif;
+  color: #4E4E4E;
+  margin-top: -5px;
+}
+
+.hover a:link {
+  color: #4E4E4E;
+}
+
+.hover a:visited {
+  color: #4E4E4E;
+}
+
+.hover a:hover {
+  color: #6A7A9A;
+}
+
+.byline {
+  font-size: 12px;
+  line-height:1;
+  font-weight: bold;
+  font-family: Helvetica, Arial, Sans-serif;
+  color: #EDEDED;
+}
+
+.line {
+    border-bottom-color:#EDEDED;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    margin-bottom: 10px;
+}
+
+.blank {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.blank1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.blank2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+nav {
+  font-size: 16px;
+  color: #EDEDED;
+  font-family: Helvetica, Arial, Sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.up {
+  background-color: #6A7A9A;
+  text-align: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+}
+
+.up a:link {
+  color: #EDEDED;
+}
+
+.up a:visited {
+  color: #EDEDED;
+}
+
+.up a:hover {
+  color: #4E4E4E;
+}
+
+.contactme {
+  font-size: 20px;
+  font-family: Helvetica, Arial, Sans-serif;
+  color: #EDEDED;
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact a:link {
+  color: #EDEDED;
+}
+
+.contact a:visited {
+  color: #EDEDED;
+}
+
+.contact a:hover {
+  color: #000000;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #000000;
+  margin-top: 50px;
+}
+
+.highlights img {
+	width: 100%;
+}
+
+.highlights {
+  position: relative;
+}
+
+.highlights:hover .boxOverlay {
+	opacity: .8;
+	transition: opacity 500ms ease;
+}
+
+.boxOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: #6A7A9A;
+  transition: opacity .5s ease;
+}
+
+.textOverlay {
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-family: fantasy, Serif;
+  top: 50%;
+  left: 50%;
+  color: #EDEDED;
+  font-size: 36px;
+}
