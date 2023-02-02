@@ -109,6 +109,20 @@ body {
   color: #EDEDED;
 }
 
+.articlefont a:hover {
+  color: #487C9E;
+}
+
+.articlefont a:link {
+  color: #EDEDED;
+  text-decoration: none;
+}
+
+.articlefont a:visited {
+  color: #EDEDED;
+}
+
+
 h1 {
   font-size: 34px;
   font-weight: bold;
